@@ -2,9 +2,9 @@ name: Linux Strike Build
 
 on:
   push:
-    branches: [ main ]
+    branches: [ fix-windows-build-64bit ]
   pull_request:
-    branches: [ main ]
+    branches: [ fix-windows-build-64bit ]
   workflow_dispatch:  # Manual trigger
 
 jobs:
